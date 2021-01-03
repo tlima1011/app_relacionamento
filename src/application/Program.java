@@ -71,7 +71,10 @@ public class Program {
 			System.out.println(mulheres);
 		}*/
 		Match encontroHetero = new Match();
-		encontroHetero.matchHeteros(homemHetero[1], homemHetero[2]); 
+		encontroHetero.matchHeteros(homemHetero[0], mulherHetero[0]); 
+		
+		Match encontroHomo = new Match(); 
+		encontroHomo.matchHomos(mulherHetero[1],  mulherHetero[2]);
 		
 		
 		sc.close();
